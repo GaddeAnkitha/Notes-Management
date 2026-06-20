@@ -1,0 +1,21 @@
+.box{
+    height:100vh;
+    display:flex;
+    flex-direction: column;
+    gap:10px;
+    align-items:center;
+    justify-content: center;
+}
+
+.box input,
+button{
+    width:30%;
+    padding:5px 10px;
+}
+
+.box button{
+    background-color:darkred;
+    color:yellowgreen;
+    border:none;
+    cursor: pointer;
+}
